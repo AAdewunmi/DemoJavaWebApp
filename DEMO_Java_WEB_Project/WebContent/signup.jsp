@@ -15,15 +15,17 @@
 		   <input type="radio" name="gender" value="Female"> Female <br/>
     Languages Known: 
     	   <input type="checkbox" name="language" value="English"> English
-    	   <input type="checkbox" name="language" value="Hindi"> Hindi
-    	   <input type="checkbox" name="language" value="French"> French <br/>
+    	   <input type="checkbox" name="language" value="French"> French 
+    	   <input type="checkbox" name="language" value="Spanish"> Spanish 
+    	   <input type="checkbox" name="language" value="Other"> Other <br/>
     Country:
     	   <select name="country">
-    	   <option value="India">India</option>
-    	   <option value="USA">USA</option>
     	   <option value="UK">UK</option>
-    	   <option value="Finland">Finland</option>
-    	   <option value="Figi">Fiji</option>
+    	   <option value="USA">USA</option>
+    	   <option value="India">India</option>
+    	   <option value="China">Finland</option>
+    	   <option value="Australia">Fiji</option>
+    	   <option value="Other">Other</option>
     	   </select><br/>
     	   <input type="submit" value="Submit">
 </form>
