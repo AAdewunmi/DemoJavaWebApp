@@ -33,6 +33,8 @@ public class appController extends HttpServlet {
 			getServletContext().getRequestDispatcher("/signup.jsp").forward(request, response);
 		}else if(paramString.equals("about")) {
 			getServletContext().getRequestDispatcher("/about.jsp").forward(request, response);
+		}else if(paramString.equals("contactus")) {
+			getServletContext().getRequestDispatcher("/contactus.jsp").forward(request, response);
 		}else {
 			getServletContext().getRequestDispatcher("/notFound.jsp").forward(request, response);
 		}

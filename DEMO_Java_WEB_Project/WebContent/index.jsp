@@ -7,12 +7,15 @@
 <title>Home</title>
 </head>
 <body>
-It's the home page.
 <br/>
-<ul>
-  <li><a href="<%=request.getContextPath()%>/appController?page=login">Login</a></li>
-  <li><a href="<%=request.getContextPath()%>/appController?page=about">About</a></li>
-  <li><a href="<%=request.getContextPath()%>/appController?page=signup">Sign Up</a></li>
-</ul>
+<table style="width:100%">
+  <tr>
+    <th><a href="<%=request.getContextPath()%>/appController?page=about">About</a></th> 
+    <th><a href="<%=request.getContextPath()%>/appController?page=login">Login</a></th>
+    <th><a href="<%=request.getContextPath()%>/appController?page=signup">Sign Up</a></th>
+    <th><a href="<%=request.getContextPath()%>/appController?page=contactus">Contact Us</a></th> 
+  </tr>
+</table>
+<h1>It's the home page.</h1>
 </body>
 </html>

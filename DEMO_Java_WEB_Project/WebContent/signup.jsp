@@ -23,8 +23,8 @@
     	   <option value="UK">UK</option>
     	   <option value="USA">USA</option>
     	   <option value="India">India</option>
-    	   <option value="China">Finland</option>
-    	   <option value="Australia">Fiji</option>
+    	   <option value="China">China</option>
+    	   <option value="Australia">Australia</option>
     	   <option value="Other">Other</option>
     	   </select><br/>
     	   <input type="submit" value="Submit">
