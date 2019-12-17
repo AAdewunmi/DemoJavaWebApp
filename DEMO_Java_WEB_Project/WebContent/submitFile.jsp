@@ -7,7 +7,8 @@
 <title>Form Details</title>
 </head>
 <body>
-Name: <%= request.getParameter("name") %> <br/>
+First Name: <%= request.getParameter("firstName") %> <br/>
+Last Name: <%= request.getParameter("lastName") %> <br/>
 Gender: <%= request.getParameter("gender") %> <br/>
 Languages Known: <% String[] countries = request.getParameterValues("language");
 if (countries != null){
@@ -18,7 +19,6 @@ if (countries != null){
 }else{
 	out.print("None Selected");
 } %> <br/>
-Country: <%= request.getParameter("country") %>
-<br/>
+Country: <%= request.getParameter("country") %> <br/>
 </body>
 </html>

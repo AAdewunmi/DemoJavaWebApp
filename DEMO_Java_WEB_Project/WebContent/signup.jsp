@@ -8,8 +8,10 @@
 </head>
 <body>
 <form action="submitFile.jsp" method="post">
-	Full Name: 
-		   <input type="text" name="name"/><br/>
+	First Name: 
+		   <input type="text" name="firstName"/><br/>
+	Last Name: 
+		   <input type="text" name="lastName"/><br/>
 	Gender:
 		   <input type="radio" name="gender" value="Male"> Male
 		   <input type="radio" name="gender" value="Female"> Female <br/>
