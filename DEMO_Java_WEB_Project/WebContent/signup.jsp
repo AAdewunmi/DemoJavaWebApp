@@ -9,11 +9,11 @@
 <body>
 <form action="submitFile.jsp" method="post">
 	First Name: 
-		   <input type="text" name="firstName"/><br/>
+		   <input type="text" name="firstName" required/><br/>
 	Last Name: 
-		   <input type="text" name="lastName"/><br/>
+		   <input type="text" name="lastName" required/><br/>
 	Gender:
-		   <input type="radio" name="gender" value="Male"> Male
+		   <input type="radio" name="gender" value="Male" checked="checked"> Male
 		   <input type="radio" name="gender" value="Female"> Female <br/>
     Languages Known: 
     	   <input type="checkbox" name="language" value="English"> English

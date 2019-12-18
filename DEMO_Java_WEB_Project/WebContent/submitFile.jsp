@@ -7,6 +7,12 @@
 <title>Form Details</title>
 </head>
 <body>
+<br/>
+Congratulations <%= request.getParameter("firstName") %>,
+you are signed up!!!.
+<br/>
+<h2> Sign Up Details: </h2>
+<br/>
 First Name: <%= request.getParameter("firstName") %> <br/>
 Last Name: <%= request.getParameter("lastName") %> <br/>
 Gender: <%= request.getParameter("gender") %> <br/>
@@ -20,5 +26,7 @@ if (countries != null){
 	out.print("None Selected");
 } %> <br/>
 Country: <%= request.getParameter("country") %> <br/>
+
+
 </body>
 </html>
