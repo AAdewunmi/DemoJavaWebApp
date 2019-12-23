@@ -7,6 +7,8 @@
 <title>Form Demo</title>
 </head>
 <body>
+<h1>Sign Up Form</h1>
+<br/>
 <form action="submitFile.jsp" method="post">
 	First Name: 
 		   <input type="text" name="firstName" required/><br/>

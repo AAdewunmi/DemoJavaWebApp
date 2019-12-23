@@ -7,7 +7,7 @@
 <title>about</title>
 </head>
 <body>
-About: This is a Java Web project, which implements the
-JSP and Servlet Java technologies. 
+<h1>About: This is a Java Web project, which implements Java
+JSP, Servlet and Beans. </h1>
 </body>
 </html>

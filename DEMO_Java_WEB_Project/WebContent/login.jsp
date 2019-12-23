@@ -7,6 +7,16 @@
 <title>Login</title>
 </head>
 <body>
-Login page
+<h1>Login Form</h1>
+<br/>
+<jsp:useBean id = "user" class="org.jspform.beans.formValidationBean" 
+scope="session"></jsp:useBean>
+<form action="userValidation.jsp" method="post">
+Enter User Name: <input type="text" name="userString" 
+value='<jsp:getProperty property="userString" name="user"/>'><br/>
+Enter Password: <input type="text" name="passPasswordString" 
+value='<jsp:getProperty property="passPasswordString" name="user"/>'><br/>
+<input type="submit" value="Submit">
+</form>
 </body>
 </html>

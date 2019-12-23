@@ -7,6 +7,6 @@
 <title>Contact Us</title>
 </head>
 <body>
-Contact Us
+<h1> Contact Us </h1>
 </body>
 </html>
