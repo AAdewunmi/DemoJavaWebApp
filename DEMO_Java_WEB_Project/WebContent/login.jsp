@@ -18,5 +18,6 @@ Enter Password: <input type="text" name="passPasswordString"
 value='<jsp:getProperty property="passPasswordString" name="user"/>'><br/>
 <input type="submit" value="Submit">
 </form>
+<%@ include file = "footer.jsp" %>
 </body>
 </html>

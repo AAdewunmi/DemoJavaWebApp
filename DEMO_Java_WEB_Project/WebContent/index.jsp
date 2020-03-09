@@ -17,5 +17,6 @@
   </tr>
 </table>
 <h1>It's the home page.</h1>
+<%@ include file = "footer.jsp" %>
 </body>
 </html>

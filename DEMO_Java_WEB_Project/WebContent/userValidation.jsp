@@ -17,5 +17,6 @@ You entered Password as: <jsp:getProperty property="passPasswordString" name="us
 You are a <%=user.validate("Ade", "java")%> user.
 <br/>
 <b>Thank You</b>
+<%@ include file = "footer.jsp" %>
 </body>
 </html>

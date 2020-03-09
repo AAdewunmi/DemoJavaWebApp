@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Not found (Exception Handling)</title>
+<title>Insert title here</title>
 </head>
 <body>
-There is some issue with the URL.
-<%@ include file = "footer.jsp" %>
+	  <center>
+         <p>Copyright © 2020</p>
+      </center>
 </body>
 </html>

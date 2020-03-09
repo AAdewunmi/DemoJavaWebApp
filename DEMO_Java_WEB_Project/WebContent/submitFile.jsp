@@ -27,6 +27,6 @@ if (countries != null){
 } %> <br/>
 Country: <%= request.getParameter("country") %> <br/>
 
-
+<%@ include file = "footer.jsp" %>
 </body>
 </html>
