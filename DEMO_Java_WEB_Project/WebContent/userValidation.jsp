@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +18,6 @@ You entered Password as: <jsp:getProperty property="passPasswordString" name="us
 You are a <%=user.validate("Ade", "java")%> user.
 <br/>
 <b>Thank You</b>
-<%@ include file = "footer.jsp" %>
+<c:import url="/include/footer.jsp"></c:import>
 </body>
 </html>
