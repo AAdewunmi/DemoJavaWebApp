@@ -8,6 +8,7 @@
 <title>Contact Us</title>
 </head>
 <body>
+<c:import url="/include/header.jsp"></c:import>
 <h1> Contact Us </h1>
 <c:import url="/include/footer.jsp"></c:import>
 </body>

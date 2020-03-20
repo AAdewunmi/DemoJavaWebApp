@@ -8,6 +8,7 @@
 <title>Form Demo</title>
 </head>
 <body>
+<c:import url="/include/header.jsp"></c:import>
 <h1>Sign Up Form</h1>
 <br/>
 <form action="submitFile.jsp" method="post">

@@ -8,6 +8,7 @@
 <title>Form Details</title>
 </head>
 <body>
+<c:import url="/include/header.jsp"></c:import>
 <br/>
 Congratulations <%= request.getParameter("firstName") %>,
 you are signed up!!!.

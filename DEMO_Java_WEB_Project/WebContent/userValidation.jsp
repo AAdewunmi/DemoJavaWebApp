@@ -8,6 +8,7 @@
 <title>User Validation </title>
 </head>
 <body>
+<c:import url="/include/header.jsp"></c:import>
 <jsp:useBean id = "user" class="org.jspform.beans.formValidationBean" 
 scope="session"></jsp:useBean>
 <jsp:setProperty property="*" name="user"/>

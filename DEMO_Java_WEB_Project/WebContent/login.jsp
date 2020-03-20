@@ -8,6 +8,7 @@
 <title>Login</title>
 </head>
 <body>
+<c:import url="/include/header.jsp"></c:import>
 <h1>Login Form</h1>
 <br/>
 <jsp:useBean id = "user" class="org.jspform.beans.formValidationBean" 

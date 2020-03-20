@@ -7,6 +7,7 @@
 <meta charset="UTF-8">
 <title>Not found (Exception Handling)</title>
 </head>
+<c:import url="/include/header.jsp"></c:import>
 <body>
 There is some issue with the URL.
 <c:import url="/include/footer.jsp"></c:import>
