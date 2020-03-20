@@ -9,6 +9,17 @@
 </head>
 <body>
 <c:import url="/include/header.jsp"></c:import>
+<br/>
+<table style="width:100%">
+  <tr>
+    <th><a href="<%=request.getContextPath()%>/appController?page=home">Home</a></th> 
+    <th><a href="<%=request.getContextPath()%>/appController?page=about">About Us</a></th> 
+     <th><a href="<%=request.getContextPath()%>/appController?page=login">Login</a></th>
+      <th><a href="<%=request.getContextPath()%>/appController?page=signup">Sign Up</a></th>
+    <th><a href="<%=request.getContextPath()%>/appController?page=contactus">Contact Us</a></th> 
+  </tr>
+</table>
+<br/>
 <jsp:useBean id = "user" class="org.jspform.beans.formValidationBean" 
 scope="session"></jsp:useBean>
 <jsp:setProperty property="*" name="user"/>
