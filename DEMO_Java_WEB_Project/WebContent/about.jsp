@@ -6,6 +6,7 @@
 <title>about</title>
 </head>
 <body>
+<c:import url="/include/header.jsp"></c:import>
 <h1>About: This is a Java Web project, which implements Java
 JSP, Servlet and Beans. </h1>
 <c:import url="/include/footer.jsp"></c:import>
