@@ -5,7 +5,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Not found (Exception Handling)</title>
+<title>Sign Up/Log In</title>
+
+</style>
 </head>
 <body>
 <c:import url="/include/header.jsp"></c:import>
@@ -14,12 +16,20 @@
   <tr>
     <th><a href="<%=request.getContextPath()%>/appController?page=home">Home</a></th> 
     <th><a href="<%=request.getContextPath()%>/appController?page=about">About Us</a></th> 
-    <th><a href="<%=request.getContextPath()%>/appController?page=customer">Sign Up/Log In</a></th> 
-    <th><a href="<%=request.getContextPath()%>/appController?page=contactus">Contact Us</a></th> 
+    <th><a href="<%=request.getContextPath()%>/appController?page=contactus">Contact Us</a></th>   
   </tr>
 </table>
 <br/>
-There is some issue with the URL.
+<h1> Customer  Account</h1>
+
+<table style="width:100%">
+  <tr>
+    <th><a href="<%=request.getContextPath()%>/appController?page=login">Log In</a></th>
+    <th><a href="<%=request.getContextPath()%>/appController?page=signup">Sign Up</a></th> 
+  </tr>
+</table>
+<br/>
+<br/>
 <c:import url="/include/footer.jsp"></c:import>
 </body>
 </html>

@@ -14,8 +14,7 @@
   <tr>
     <th><a href="<%=request.getContextPath()%>/appController?page=home">Home</a></th> 
     <th><a href="<%=request.getContextPath()%>/appController?page=about">About Us</a></th>   
-    <th><a href="<%=request.getContextPath()%>/appController?page=login">Login</a></th>
-    <th><a href="<%=request.getContextPath()%>/appController?page=signup">Sign Up</a></th>
+    <th><a href="<%=request.getContextPath()%>/appController?page=customer">Sign Up/Log In</a></th>
   </tr>
 </table>
 <br/>
