@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+    <%@ page import="java.util.*" %>
     <c:import url="/include/header.jsp"></c:import>
 <!DOCTYPE html>
 <html>
@@ -17,6 +18,9 @@
     <th><a href="<%=request.getContextPath()%>/appController?page=contactus">Contact Us</a></th> 
   </tr>
 </table>
+<br/>
+<br/>
+Today's date: <%= (new java.util.Date()).toLocaleString()%>
 <br/>
 <h1>It's the home page.</h1>
 <c:import url="/include/footer.jsp"></c:import>

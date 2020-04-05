@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page import="java.util.*" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,8 +17,12 @@
   </tr>
 </table>
 <br/>
+<br/>
+Today's date: <%= (new java.util.Date()).toLocaleString()%>
+<br/>
 <h1>About: This is a Java Web project, which implements Java
 JSP, Servlet and Beans. </h1>
+</br>
 <c:import url="/include/footer.jsp"></c:import>
 </body>
 </html>
