@@ -20,8 +20,16 @@
 <br/>
 Today's date: <%= (new java.util.Date()).toLocaleString()%>
 <br/>
-<h1>About: This is a Java Web project, which implements Java
-JSP, Servlet and Beans. </h1>
+<h1>About Us</h1>
+<br/>
+Adrian Abraham & Sons Limited Limited (commonly known as A. Abraham) is a United Kingdom based 
+mens wear retailer. 
+It was started in 2020 by Ade Adewunmi who opened his first store on London’s Panton Street and 
+later moved to Jermyn Street, renowned as a base for formal shirts. It now has over 1000 stores worldwide. 
+A. Abraham started out making shirts but now sells suits, outerwear, knitwear, jackets, chinos, ties and 
+accessories for men. Headquartered in Farringdon, in the London borough of Islington, the company is 
+majority owned by Kuranga Capital.
+<br/>
 </br>
 <c:import url="/include/footer.jsp"></c:import>
 </body>

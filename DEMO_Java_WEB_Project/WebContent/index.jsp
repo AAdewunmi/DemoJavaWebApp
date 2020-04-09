@@ -39,15 +39,17 @@ Today's date: <%= (new java.util.Date()).toLocaleString()%>
       
          <p>Total number of visits: <%= hitsCount%></p>
 <br/>     
+<center>
 <br/>
 <h1>Adrian Abraham & Sons Limited </h1>
-A. Abraham & Sons Limited is a United Kingdom based 
-mens wear retailer.
 <br/>
-Shop online at A. Abraham & Sons, premium quality since 2020. 
+Shop online at Adrian Abraham & Sons, premium quality since 2020. 
+Hand-finished men's shirts, traditional wool suits, 
+100% silk ties and women's work wear.
 <br/>
-Hand-finished men's shirts, traditional wool suits, 100% silk ties and women's work wear.
-<br>
+"Premium Quality"
+</center>
+<br/>
 <c:import url="/include/footer.jsp"></c:import>
 </body>
 </html>
